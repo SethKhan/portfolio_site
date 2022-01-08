@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'quote_generator/index.html')
-
+'''
 def about(request):
     return render(request, 'quote_generator/about.html')
-
+'''
