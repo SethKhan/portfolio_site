@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'quote_generator',
     'portfolio',
     'blog',
+    'exchange_rate',
 ]
 
 MIDDLEWARE = [
@@ -109,10 +110,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATIC_DIRS = [
-#     BASE_DIR / 'quote_generator' / 'static',
-#     BASE_DIR / 'movie_booking' / 'static',
-# ]
+STATIC_DIRS = [
+    BASE_DIR / 'quote_generator' / 'static',
+    BASE_DIR / 'movie_booking' / 'static',
+]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
